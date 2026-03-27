@@ -1,0 +1,23 @@
+{
+  "name": "rolnopol-atf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasBola/rolnopol-atf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LukasBola/rolnopol-atf/issues"
+  },
+  "homepage": "https://github.com/LukasBola/rolnopol-atf#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0"
+  }
+}

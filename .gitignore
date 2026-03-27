@@ -108,3 +108,6 @@ tmp/
 screenshots/
 videos/
 traces/
+
+# Playwright
+/playwright/.auth/
