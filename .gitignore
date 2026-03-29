@@ -77,7 +77,6 @@ desktop.ini
 # IDEs & editors
 # -----------------------------------------------------------------------------
 .idea/
-.vscode/
 !.vscode/extensions.json
 !.vscode/settings.json.example
 *.swp

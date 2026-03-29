@@ -1,0 +1,81 @@
+{
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.largeFileOptimizations": false,
+  "editor.language.brackets": [],
+  "editor.stickyScroll.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 10,
+  "workbench.colorTheme": "Quiet Light",
+  "workbench.preferredDarkColorTheme": "Visual Studio 2017 Light - C++",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.enablePreview": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.confirmDragAndDrop": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/test-results": true,
+    "**/playwright-report": true
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "gitlens.blame.toggleMode": "window",
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "branch-create:command"
+  ],
+  "playwright.reuseBrowser": true,
+  "playwright.pickLocatorCopyToClipboard": true,
+  "playwright.showTrace": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.mcp.autostart": "newAndOutdated",
+  "cSpell.userWords": ["Rolnopol"],
+  "cSpell.customDictionaries": {},
+  "cSpell.language": "en,pl",
+  "cSpell.dictionaries": ["polish"],
+  "eslint.codeActionsOnSave.rules": null,
+  "redhat.telemetry.enabled": true,
+  "vs-kubernetes": {
+    "vscode-kubernetes.minikube-path-mac": "/Users/lukaszbola/.vs-kubernetes/tools/minikube/darwin-arm64/minikube",
+    "vscode-kubernetes.kubectl-path-mac": "/Users/lukaszbola/.vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.helm-path-mac": "/Users/lukaszbola/.vs-kubernetes/tools/helm/darwin-arm64/helm"
+  },
+  "yaml.customTags": []
+}
